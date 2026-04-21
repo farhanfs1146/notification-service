@@ -72,6 +72,7 @@
 			<scope>test</scope>
 		</dependency>
 		<dependency>
+		<!--Kafka dependency-->
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-kafka-test</artifactId>
 			<scope>test</scope>
@@ -81,6 +82,13 @@
 			<artifactId>spring-boot-starter-webmvc-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<!-- gmail/email dependency in spring boot provides built-in email support using: This enables Spring Mail. -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-mail</artifactId>
+		</dependency>
+
+
 	</dependencies>
 
 	<build>
